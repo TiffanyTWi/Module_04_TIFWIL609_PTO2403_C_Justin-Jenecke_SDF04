@@ -1,0 +1,95 @@
+body {
+    background: #eeefed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 25px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-size: 50px;
+    font-family: "Calibri", sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+    margin-bottom: 40px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    margin: 0 auto 20px; /* Center and add margin to stack vertically */
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-1 {
+    background: #2596be;
+    color: #000000 ;
+    background: linear-gradient(#FCFB62, #91F9E5), rgba(0,0,0,0.2);
+    
+  }
+.btn-1:hover {
+    color: #fafbea;
+    background: #d785db;
+    box-shadow: 5px 5px 5px #E6b4ea;
+    background: radial-gradient(#C88284, #F3D8DB), rgba(0,0,0,0.2);
+    
+  }  
+  
+.btn-2 {
+    background: #9cf6f6;
+      
+  }
+.btn-2:hover {
+    background: #ff7477;
+    color: #fff;
+    transform: traslateY(-4PX);
+    box-shadow: 1px 10px 20px #e69597;
+  }
+  
+.btn-3{
+    background: #00203FFF;
+    color: #ADEFD1FF;
+    letter-spacing: 0;
+  }
+  
+.btn-3:hover {
+    background: #D85A7FFF;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation:slidebg 3s linear infinite;
+    letter-spacing: 2px;
+  }
+    
+      
+  
+
+/* Add your custom styles for btn-1, btn-2, and btn-3 */
